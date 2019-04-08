@@ -53,7 +53,7 @@ import java.io.*;
  *      2.读取部分数据到字节数组中，每次只读取传递数组的部分内容，如果读取满了则返回长度(len),如果没有
  *      读取满则返回读取的数据个数，如果读取到最后没有数据了返回-1：public int read(byte b[], int off,int len) throws IOException
  *      3. 读取单个字节，每次读取一个字节的内容，直到没有数据了返回-1：public abstract int read() throwsIOException;
- * 同OutputStream的使用一样，InputStream是一个抽象类，如果要对其实例化，同样也需要使用子类。如果要对文件进行处理，则使用FileInputStream类。
+ *      同OutputStream的使用一样，InputStream是一个抽象类，如果要对其实例化，同样也需要使用子类。如果要对文件进行处理，则使用FileInputStream类。
  *
  *
  *
