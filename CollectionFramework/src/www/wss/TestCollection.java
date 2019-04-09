@@ -132,7 +132,7 @@ public class TestCollection {
         }
         /*
             结果:
-            Person{name='C++', age=15}
+            Person{name='C++', age=15} 
             Person{name='PHP', age=18}
         */
 
